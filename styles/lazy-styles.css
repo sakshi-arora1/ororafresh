@@ -11,18 +11,28 @@ a.button.primary {
     border-radius: 0px;
 }
 
+[data-align="center"] {
+    text-align: center;
+}
+
 .orora-cards-block {
     background-image: url(../resources/greenhouse-tile-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-[data-align="center"] {
-    text-align: center;
-}
-
 .orora-heading-block {
     margin: 0;
     padding: 0px !important;
     text-align: center;
+}
+
+.orora-process-columns-block h4 {
+    text-align: center;
+}
+
+.orora-process-columns-block a {
+    color: #443f3f;
+    font-size: 18px;
+    font-family: center-bold;
 }
