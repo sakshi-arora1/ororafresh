@@ -1,1 +1,28 @@
 /* below the fold CSS goes here */
+.button-container {
+    display: flex;
+}
+
+a.button.primary {
+    margin: auto;
+    background-color: #eb3300;
+    box-shadow: 0 5px 0 #cc2c00;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.orora-cards-block {
+    background-image: url(../resources/greenhouse-tile-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[data-align="center"] {
+    text-align: center;
+}
+
+.orora-heading-block {
+    margin: 0;
+    padding: 0px !important;
+    text-align: center;
+}
