@@ -1,4 +1,5 @@
 /* below the fold CSS goes here */
+
 .button-container {
     display: flex;
 }
@@ -22,6 +23,44 @@ a.button.primary {
     padding: 0 !important;
 }
 
+header .nav-wrapper {
+    opacity: 0.85;
+    padding: 20px;
+}
+
+header nav a:any-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ea6d4b;
+}
+
+header nav .nav-sections .nav-drop::after {
+    color: #ea6d4b;
+}
+
+header nav .nav-sections > ul > li > ul::before {
+    visibility: hidden;
+}
+header nav .nav-sections > ul > li[aria-expanded=true] > ul {
+    background-color: #ffffff;
+}
+
+header nav .nav-hamburger {
+    color: #eb3300;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer a:any-link {
+    color: white;
+}
+
+footer .columns > div:last-child,
+footer .columns > div:last-child a:any-link {
+    color: #555555FF;
+}
 .orora-heading-block {
     margin: 0;
     padding: 0 !important;
