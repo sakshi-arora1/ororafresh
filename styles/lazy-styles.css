@@ -87,6 +87,39 @@ footer .columns > div:last-child,
 footer .columns > div:last-child a:any-link {
     color: #555555FF;
 }
+
+
+.orora-carousel-block div {
+    max-width: 100%;
+    position: relative;
+}
+
+.orora-carousel-block {
+    width: 100%;
+}
+
+.orora-carousel-block img {
+    width: 100%;
+}
+
+.orora-carousel-block h2,
+.orora-carousel-block h3 {
+    position: absolute;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+.orora-carousel-block h2 {
+    top: 28%;
+    left: 10%;
+    font-size: 90px;
+}
+
+.orora-carousel-block h3 {
+    top: 45%;
+    left: 10%;
+    font-size: 50px;
+}
+
 .orora-heading-block {
     margin: 0;
     padding: 0 !important;
