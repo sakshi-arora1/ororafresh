@@ -36,3 +36,17 @@ a.button.primary {
     font-size: 18px;
     font-family: center-bold;
 }
+
+.orora-process-columns-block picture {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 150px;
+}
+
+.orora-resources-columns-block picture {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 125px;
+}
