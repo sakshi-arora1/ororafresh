@@ -9,6 +9,9 @@ a.button.primary {
     box-shadow: 0 5px 0 #cc2c00;
     border: 1px solid transparent;
     border-radius: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 [data-align="center"] {
@@ -70,9 +73,6 @@ a.button.primary {
 
 .orora-cards-block [data-align="center"] a {
     width: 90%;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .orora-process-columns-block h4 {
@@ -112,4 +112,16 @@ a.button.primary {
 
 .orora-number-columns-block [data-align="center"]:nth-child(1) {
     color: #7E5475;
+}
+
+.orora-number-columns-block [data-align="center"]:nth-child(2) {
+    color: #589199;
+}
+
+.orora-number-columns-block [data-align="center"]:nth-child(3) {
+    color: #a30050;
+}
+
+.orora-number-columns-block [data-align="center"]:nth-child(4) {
+    color: #69923a;
 }
