@@ -8,10 +8,20 @@ a.button.primary {
     background-color: #eb3300;
     box-shadow: 0 5px 0 #cc2c00;
     border: 1px solid transparent;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 [data-align="center"] {
+    text-align: center;
+}
+
+[data-section-status="loaded"] {
+    padding: 0 !important;
+}
+
+.orora-heading-block {
+    margin: 0;
+    padding: 0 !important;
     text-align: center;
 }
 
@@ -19,12 +29,50 @@ a.button.primary {
     background-image: url(../resources/greenhouse-tile-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
 }
 
-.orora-heading-block {
-    margin: 0;
-    padding: 0px !important;
-    text-align: center;
+.orora-cards-block h3 {
+    font-family: center-bold;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.orora-cards-block .cards div:nth-child(2) p {
+    margin-top: 0;
+    width: 80px;
+    height: 1px;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #EB3300FF;
+}
+
+.orora-cards-block .cards div:nth-child(3) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 80px;
+}
+
+.orora-cards-block li {
+    position: relative;
+}
+
+.orora-cards-block [data-align="center"] {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 32px);
+}
+
+.orora-cards-block [data-align="center"] a {
+    width: 90%;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .orora-process-columns-block h4 {
@@ -49,4 +97,19 @@ a.button.primary {
     margin: auto;
     justify-content: center;
     width: 125px;
+}
+
+.orora-resources-columns-block h3 {
+    font-size: 22px;
+    font-family: center-bold;
+}
+
+.orora-number-columns-block {
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.orora-number-columns-block [data-align="center"]:nth-child(1) {
+    color: #7E5475;
 }
