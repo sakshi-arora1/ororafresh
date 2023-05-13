@@ -179,6 +179,19 @@ footer .columns > div:last-child a:any-link {
     border-radius: 3px;
 }
 
+.orora-top-scroll a.button {
+    background-color: black;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 16px;
+    box-shadow: none;
+    padding: 2px 10px;
+    position: fixed;
+    bottom: 1px;
+    right: 10px;
+    z-index: 110;
+}
+
 .orora-cookie-block p a:hover {
     background: #868686;
     color: #000000;
