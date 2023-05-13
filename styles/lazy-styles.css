@@ -92,14 +92,20 @@ footer .columns > div:last-child a:any-link {
     color: #555555FF;
 }
 
+.orora-page-title {
+    display: none;
+}
+
+.orora-carousel-block {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
 
 .orora-carousel-block div {
     max-width: 100%;
     position: relative;
-}
-
-.orora-carousel-block {
-    width: 100%;
+    display: inline-block;
+    white-space: initial;
 }
 
 .orora-carousel-block img {
@@ -122,6 +128,20 @@ footer .columns > div:last-child a:any-link {
     top: 45%;
     left: 10%;
     font-size: 50px;
+}
+
+.orora-carousel-nav p {
+    margin-top: -70px;
+}
+
+.orora-carousel-nav a {
+    color: transparent;
+    background-color: #ffffff;
+    opacity: 0.75;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
 }
 
 .orora-heading-block {
