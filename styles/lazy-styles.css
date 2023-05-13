@@ -327,11 +327,12 @@ footer .columns > div:last-child a:any-link {
     .orora-carousel-block h2 {
         font-size: 50px;
         width: 100%;
+        left: initial;
     }
 
     .orora-carousel-block h3 {
         top: 55%;
         font-size: 28px;
-        margin-left: auto;
+        left: initial;
     }
 }
