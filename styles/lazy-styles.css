@@ -98,7 +98,7 @@ footer .columns > div:last-child a:any-link {
 
 .orora-carousel-block {
     white-space: nowrap;
-    margin-top: -40px;
+    margin-top: -25%;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overflow-x: hidden;
@@ -126,16 +126,16 @@ footer .columns > div:last-child a:any-link {
 .orora-carousel-block h3 {
     position: absolute;
     text-shadow: 2px 2px black;
-    color: white;
+    color: #ffffff;
 }
 .orora-carousel-block h2 {
-    top: 28%;
+    top: 35%;
     left: 10%;
     font-size: 90px;
 }
 
 .orora-carousel-block h3 {
-    top: 45%;
+    top: 50%;
     left: 10%;
     font-size: 50px;
 }
