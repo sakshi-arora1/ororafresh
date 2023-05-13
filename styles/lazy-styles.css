@@ -258,6 +258,10 @@ footer .columns > div:last-child a:any-link {
     width: 150px;
 }
 
+.orora-resources-columns-block {
+    text-align: center;
+}
+
 .orora-resources-columns-block picture {
     display: flex;
     margin: auto;
@@ -270,25 +274,25 @@ footer .columns > div:last-child a:any-link {
     font-family: center-bold;
 }
 
-.orora-number-columns-block {
+.orora-resources-columns-block h4 {
     font-size: 36px;
     font-family: Roboto;
     font-weight: 900;
 }
 
-.orora-number-columns-block [data-align="center"]:nth-child(1) {
+.orora-resources-columns-block .columns > div > div:nth-child(1) h4 {
     color: #7E5475;
 }
 
-.orora-number-columns-block [data-align="center"]:nth-child(2) {
+.orora-resources-columns-block .columns > div > div:nth-child(2) h4 {
     color: #589199;
 }
 
-.orora-number-columns-block [data-align="center"]:nth-child(3) {
+.orora-resources-columns-block .columns > div > div:nth-child(3) h4 {
     color: #a30050;
 }
 
-.orora-number-columns-block [data-align="center"]:nth-child(4) {
+.orora-resources-columns-block .columns > div > div:nth-child(4) h4 {
     color: #69923a;
 }
 
