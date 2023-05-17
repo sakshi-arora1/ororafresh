@@ -360,16 +360,16 @@ a.button.primary {
 .orora-cookie-block h5 {
   font-size: 12px;
   font-weight: 400;
+  margin-right: 80px;
   display: inline-block;
 }
 
-.orora-cookie-block p {
+.orora-cookie-block h6 {
   display: inline-block;
-  margin-left: 80px;
   margin-right: 15px;
 }
 
-.orora-cookie-block p a {
+.orora-cookie-block h6 a {
   color: #ffffff;
   background-color: #000000;
   font-size: 14px;
@@ -393,7 +393,7 @@ a.button.primary {
   z-index: 110;
 }
 
-.orora-cookie-block p a:hover {
+.orora-cookie-block h6 a:hover {
   background: #868686;
   color: #000000;
 }
@@ -519,14 +519,15 @@ a.button.primary {
     margin-left: 10px;
   }
 
-  .orora-cookie-block p {
-    display: block;
+  .orora-cookie-block h6 {
+    display: inline-block;
     margin: 0;
+    width: 45%;
   }
 
-  .orora-cookie-block p a {
-    width: 45%;
-    display: inline-block;
+  .orora-cookie-block h6 a {
+    width: 90%;
+    display: block;
   }
 
   .orora-carousel-block {
@@ -547,10 +548,14 @@ a.button.primary {
 }
 
 @media (max-width: 620px) {
-  .orora-cookie-block p a {
+  .orora-cookie-block h6 {
     display: block;
     width: 90%;
     margin-left: 10px;
     margin-top: 5px;
+  }
+
+  .orora-cookie-block h6 a {
+    width: 100%;
   }
 }
