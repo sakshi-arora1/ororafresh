@@ -35,6 +35,11 @@ footer .columns > div:last-child a:any-link {
     color: #555555FF;
 }
 
+.icon-facebook,
+.icon-linkedin,
+.icon-youtube {
+    fill: #ffffff;
+}
 
 @media (max-width: 900px) {
     header .nav-wrapper {
