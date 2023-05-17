@@ -268,42 +268,6 @@ a.button.primary {
   padding: 0 !important;
 }
 
-header .nav-wrapper {
-  opacity: 0.85;
-  padding: 20px;
-}
-
-header nav a:any-link{
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #ea6d4b;
-}
-
-header nav .nav-sections .nav-drop::after {
-  color: #ea6d4b;
-}
-
-header nav .nav-sections > ul > li > ul::before {
-  visibility: hidden;
-}
-header nav .nav-sections > ul > li[aria-expanded=true] > ul {
-  background-color: #ffffff;
-}
-
-footer {
-  background-color: #000000;
-  text-align: center;
-}
-
-footer a:any-link {
-  color: #ffffff;
-}
-
-footer .columns > div:last-child,
-footer .columns > div:last-child a:any-link {
-  color: #555555FF;
-}
-
 .orora-carousel-block {
   white-space: nowrap;
   margin-top: -25%;
@@ -549,33 +513,6 @@ footer .columns > div:last-child a:any-link {
 }
 
 @media (max-width: 900px) {
-  header .nav-wrapper {
-    opacity: 1;
-  }
-
-  header nav a:any-link {
-    text-transform: initial;
-  }
-
-  header nav .nav-sections {
-    background-color: #efefef;
-  }
-
-  header nav .nav-sections > ul > li[aria-expanded=true] > ul {
-    background-color: #e6e6e6;
-    padding-left: 15px;
-  }
-
-  header nav[aria-expanded=true] li {
-    border-top: solid 1px #dddddd;
-    padding: 10px;
-  }
-
-  header nav .nav-hamburger {
-    color: #eb3300;
-    grid-column: 3;
-  }
-
   .orora-cookie-block h5 {
     display: block;
     text-align: left;
