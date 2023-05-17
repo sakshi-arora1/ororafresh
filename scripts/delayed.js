@@ -5,3 +5,11 @@ import { sampleRUM } from './lib-franklin.js';
 sampleRUM('cwv');
 
 // add more delayed functionality here
+function removeCookieBanner(evnt) {
+    var elements = document.getElementsByClassName("orora-cookie-block");
+    var cookieElement = elements[0];
+    cookieElement.classList.add("hidden");
+    evnt.stopPropagation();
+}
+
+document.getElementById("i-consent-to-cookies").addEventListener('click', removeCookieBanner)

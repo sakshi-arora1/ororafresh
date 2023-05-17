@@ -393,6 +393,10 @@ a.button.primary {
   z-index: 110;
 }
 
+.orora-cookie-block.hidden {
+  display: none;
+}
+
 .orora-cookie-block h6 a:hover {
   background: #868686;
   color: #000000;
