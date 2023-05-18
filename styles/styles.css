@@ -268,23 +268,6 @@ a.button.primary {
   padding: 0 !important;
 }
 
-.orora-heading-block {
-  margin: 0;
-  padding: 0 !important;
-  text-align: center;
-}
-
-.orora-heading-block p {
-  margin-top: 0;
-  margin-left: 45%;
-  width: 120px;
-  height: 1px;
-  color: #ffffff;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-color: #EB3300FF;
-}
-
 .orora-cookie-block {
   display: block;
   background-color: #ffffff;

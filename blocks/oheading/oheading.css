@@ -1,0 +1,25 @@
+/* block specific CSS goes here */
+
+.oheading {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.oheading h2 {
+    font-family: 'Center Bold';
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.oheading_bottom_border {
+    margin-top: 0;
+    margin-left: 45%;
+    width: 120px;
+    height: 1px;
+    color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #EB3300FF;
+}
