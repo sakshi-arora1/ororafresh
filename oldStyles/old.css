@@ -1,0 +1,77 @@
+.orora-carousel-block {
+    white-space: nowrap;
+    margin-top: -25%;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    overflow-x: hidden;
+}
+
+.orora-carousel-block div {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    white-space: initial;
+}
+
+.orora-carousel-block picture {
+    width: 100%;
+    scroll-snap-align: center;
+    display: inline-block;
+}
+
+.orora-carousel-block img {
+    width: 100%;
+}
+
+.orora-carousel-block h2,
+.orora-carousel-block h3 {
+    position: absolute;
+    text-shadow: 2px 2px black;
+    color: #ffffff;
+}
+.orora-carousel-block h2 {
+    top: 35%;
+    left: 10%;
+    font-size: 90px;
+}
+
+.orora-carousel-block h3 {
+    top: 50%;
+    left: 10%;
+    font-size: 50px;
+}
+
+.orora-carousel-nav p {
+    margin-top: -70px;
+    margin-left: 48%;
+}
+
+.orora-carousel-nav a {
+    color: transparent;
+    background-color: #ffffff;
+    opacity: 0.75;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+
+    .orora-carousel-block {
+        text-align: center;
+    }
+
+    .orora-carousel-block h2 {
+        font-size: 50px;
+        width: 100%;
+        left: initial;
+    }
+
+    .orora-carousel-block h3 {
+        top: 55%;
+        font-size: 28px;
+        left: initial;
+    }
+}
