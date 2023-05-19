@@ -69,6 +69,10 @@
     border-radius: 50%;
 }
 
+.herocarousel_nav a.active {
+    opacity: 0.99;
+}
+
 .herocarousel img {
     object-fit: cover;
     width: 100%;
