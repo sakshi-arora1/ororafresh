@@ -1,11 +1,11 @@
 /* block specific CSS goes here */
 
-.ocarousel-container .ocarousel-wrapper {
+.herocarousel-container .herocarousel-wrapper {
     margin: 0;
     max-width: 100%;
 }
 
-.ocarousel {
+.herocarousel {
     white-space: nowrap;
     margin-top: -25%;
     scroll-behavior: smooth;
@@ -13,7 +13,7 @@
     overflow-x: hidden;
 }
 
-.ocarousel div {
+.herocarousel div {
     max-width: 100%;
     width: 100%;
     position: relative;
@@ -21,45 +21,45 @@
     white-space: initial;
 }
 
-.ocarousel picture {
+.herocarousel picture {
     width: 100%;
     scroll-snap-align: center;
     display: inline-block;
 }
 
-.ocarousel img {
+.herocarousel img {
     width: 100%;
 }
 
-.ocarousel h2,
-.ocarousel h3 {
+.herocarousel h2,
+.herocarousel h3 {
     position: absolute;
     text-shadow: 2px 2px black;
     color: #ffffff;
 }
-.ocarousel h2 {
+.herocarousel h2 {
     top: 35%;
     left: 10%;
     font-size: 90px;
 }
 
-.ocarousel h3 {
+.herocarousel h3 {
     top: 50%;
     left: 10%;
     font-size: 50px;
 }
 
-.ocarousel_nav {
+.herocarousel_nav {
     margin-top: -70px;
     margin-left: 40%;
 }
 
-.ocarousel_nav li {
+.herocarousel_nav li {
     display: inline-block;
     margin-left: 5px;
 }
 
-.ocarousel_nav a {
+.herocarousel_nav a {
     color: transparent;
     background-color: #ffffff;
     opacity: 0.75;
@@ -69,28 +69,28 @@
     border-radius: 50%;
 }
 
-.ocarousel img {
+.herocarousel img {
     object-fit: cover;
     width: 100%;
     height: 1119px;
 }
 
 @media (max-width: 900px) {
-    .ocarousel {
+    .herocarousel {
         text-align: center;
     }
 
-    .ocarousel img {
+    .herocarousel img {
         height: 756px;
     }
 
-    .ocarousel h2 {
+    .herocarousel h2 {
         font-size: 50px;
         width: 100%;
         left: initial;
     }
 
-    .ocarousel h3 {
+    .herocarousel h3 {
         top: 55%;
         font-size: 28px;
         left: initial;

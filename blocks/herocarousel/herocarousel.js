@@ -11,6 +11,6 @@ export default function decorate(block) {
     };
 
     carouselItems.forEach(createCarouselListItem);
-    carouselList.classList.add("ocarousel_nav");
+    carouselList.classList.add("herocarousel_nav");
     block.insertAdjacentElement("afterend", carouselList);
 }
