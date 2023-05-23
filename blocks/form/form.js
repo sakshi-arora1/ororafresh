@@ -203,6 +203,14 @@ const getId = (function getId() {
   };
 }());
 
+function generateItemId(name) {
+  if (name) {
+    return `urn:fnkconnection:${window.formPath}:default:Name:${name}`;
+  } else {
+    return `urn:fnkconnection:${window.formPath}:default`;
+  }
+}
+
 const fieldRenderers = {
   radio: createRadio,
   checkbox: createRadio,
