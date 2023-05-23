@@ -68,7 +68,7 @@ function createHelpText(fd) {
   const div = document.createElement('div');
   div.className = 'field-description';
   div.setAttribute('aria-live', 'polite');
-  label.setAttribute('itemtype', 'text');
+  div.setAttribute('itemtype', 'text');
   div.setAttribute('itemprop', 'Description');
   div.innerText = fd.Description;
   div.id = `${fd.Id}-description`;
