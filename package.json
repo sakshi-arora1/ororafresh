@@ -36,6 +36,6 @@
     "stylelint-config-standard": "29.0.0"
   },
   "dependencies": {
-    "@aem-sites/universal-editor-cors": "./universal-editor-cors-0.0.62.tgz"
+    "@aem-sites/universal-editor-cors": "file:universal-editor-cors-0.0.62.tgz"
   }
 }
