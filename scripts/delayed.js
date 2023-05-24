@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/no-cycle
 import { sampleRUM } from './lib-franklin.js';
-import '@aem-sites/universal-editor-cors';
+import './universal-editor-cors-0.0.62-embedded.js';
+
 
 // Core Web Vitals RUM collection
 sampleRUM('cwv');
