@@ -36,6 +36,8 @@
     "stylelint-config-standard": "29.0.0"
   },
   "dependencies": {
+    "@aem-sites/universal-editor-commons": "file:universal-editor-commons-0.0.33.tgz",
+    "@aem-sites/universal-editor-overlays": "file:universal-editor-overlays-0.0.60.tgz",
     "@aem-sites/universal-editor-cors": "file:universal-editor-cors-0.0.62.tgz"
   }
 }
