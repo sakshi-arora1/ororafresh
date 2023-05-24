@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-cycle
 import { sampleRUM } from './lib-franklin.js';
+import '@aem-sites/universal-editor-cors';
 
 // Core Web Vitals RUM collection
 sampleRUM('cwv');
@@ -12,6 +13,7 @@ function removeCookieBanner(evnt) {
     evnt.stopPropagation();
 }
 
-document.getElementById("i-consent-to-cookies").addEventListener('click', removeCookieBanner);
-
-import "@aem-sites/universal-editor-cors";
+var consentCookie = document.getElementById("i-consent-to-cookies");
+if (consentCookie) {
+    consentCookie.addEventListener('click', removeCookieBanner);
+}
