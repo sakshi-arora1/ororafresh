@@ -12,4 +12,6 @@ function removeCookieBanner(evnt) {
     evnt.stopPropagation();
 }
 
-document.getElementById("i-consent-to-cookies").addEventListener('click', removeCookieBanner)
+document.getElementById("i-consent-to-cookies").addEventListener('click', removeCookieBanner);
+
+import "@aem-sites/universal-editor-cors";
